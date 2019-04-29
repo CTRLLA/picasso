@@ -1,0 +1,23 @@
+{
+  "name": "piccaso",
+  "version": "0.0.1",
+  "description": "Dynamic image generator for social media thumbnail images.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CTRLLA/piccaso.git"
+  },
+  "author": "ishmaelthedestroyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CTRLLA/piccaso/issues"
+  },
+  "homepage": "https://github.com/CTRLLA/piccaso#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
