@@ -59,6 +59,8 @@ app.get('/v3', async (req, res) => {
 
   const textImage = text2png(text, {
     font: `${size}px Futura`,
+    localFontPath: path.resolve(__dirname + '/fonts/futura/Futura Bold Italic font.ttf'),
+    localFontName: 'Futura',
     color: '#ffffff',
     textAlign: 'center',
     backgroundColor: '#333333',
