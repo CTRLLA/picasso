@@ -1,5 +1,5 @@
 {
-  "name": "piccaso",
+  "name": "picasso",
   "version": "0.0.1",
   "description": "Dynamic image generator for social media thumbnail images.",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/CTRLLA/piccaso.git"
+    "url": "git+ssh://git@github.com/CTRLLA/picasso.git"
   },
   "author": "ishmaelthedestroyer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CTRLLA/piccaso/issues"
+    "url": "https://github.com/CTRLLA/picasso/issues"
   },
-  "homepage": "https://github.com/CTRLLA/piccaso#readme",
+  "homepage": "https://github.com/CTRLLA/picasso#readme",
   "dependencies": {
     "express": "^4.16.4",
     "sharp": "^0.22.1",
