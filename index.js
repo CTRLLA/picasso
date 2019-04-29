@@ -50,7 +50,7 @@ app.get('/v3', async (req, res) => {
   const backgroundImage = await sharp({
     create: {
       width: 1200,
-      height: 600,
+      height: 628,
       channels: 4,
       background: { r: 51, g: 51, b: 51, alpha: 1.0 }
     }
