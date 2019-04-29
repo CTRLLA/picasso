@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/CTRLLA/piccaso#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "sharp": "^0.22.1",
+    "text-to-picture": "^1.0.0",
+    "text2png": "^2.1.0"
   }
 }
