@@ -72,7 +72,7 @@ app.get('/v3', async (req, res) => {
     .composite([{ input: textImage, gravity: 'centre' }])
     .sharpen()
     .withMetadata()
-    .webp( { quality: 90 } )
+    .png({ quality: 90 })
     .toBuffer();
 
   res.set('Content-Type', 'image/png');
